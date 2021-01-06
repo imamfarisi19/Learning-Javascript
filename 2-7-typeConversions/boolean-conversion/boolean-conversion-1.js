@@ -3,4 +3,4 @@ alert(Boolean(0)); // false
 
 alert(Boolean("hello")); // true
 alert(Boolean("")); // false
-// end of line
+// end of code
