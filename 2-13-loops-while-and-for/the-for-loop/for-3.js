@@ -1,0 +1,5 @@
+for (let i = 0; i < 3; i++) { 
+  alert(i); // 0, 1, 2 
+} 
+alert(i); // error, no such variable 
+
