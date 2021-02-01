@@ -10,3 +10,8 @@ switch (a) {
 	default:
 		alert( "I don't know such values" );
 }
+
+/* alert( 'Exactly!' );
+ * alert( 'Too big' );
+ * alert( "I don't know such values" );
+ * */
