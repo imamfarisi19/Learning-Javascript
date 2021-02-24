@@ -1,3 +1,0 @@
-alert('Hello'); 
-alert('World'); 
-
