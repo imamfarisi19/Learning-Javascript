@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- add mocha css, to show results -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+  <!-- add mocha framework code -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
   <script>
-    mocha.setup('bdd');
+    mocha.setup('bdd'); // minimal setup
   </script>
-  <script src="https://cdnjs.cloudflare.com/ajax.libs/chai/3.5.0/chai.js"></script>
+  <!-- add chai -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
   <script>
+    // chai has a lot of stuff, let's make assert global
     let assert = chai.assert;
   </script>
 </head>
@@ -20,10 +24,13 @@
     }
   </script>
 
-  <script src="test.js"></script>
+  <!-- the script with tests (describe, it...) -->
+  <script src="../3-5-3-development-of-pow-the-spec/development-0.js"></script>
 
+  <!-- the element with id="mocha" will contain test results -->
   <div id="mocha"></div>
 
+  <!-- run tests! -->
   <script>
     mocha.run();
   </script>
