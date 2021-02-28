@@ -1,0 +1,2 @@
+user.isAdmin = true;
+
