@@ -1,4 +1,0 @@
-let user = {
-  name: "John"
-};
-
