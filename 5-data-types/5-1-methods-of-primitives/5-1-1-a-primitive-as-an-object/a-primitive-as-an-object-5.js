@@ -1,0 +1,2 @@
+alert(null.test); // error 
+
