@@ -1,0 +1,2 @@
+alert(NaN === NaN); // false
+
