@@ -1,0 +1,3 @@
+alert( '¿' ); // strange symbols...
+alert( '¿' ); // ...pieces of the surrogate pair 
+
