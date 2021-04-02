@@ -1,0 +1,2 @@
+alert( 'Österreich' > 'Zealand' ); // true 
+
