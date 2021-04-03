@@ -1,0 +1,2 @@
+ucFirst("john") == "John";
+
