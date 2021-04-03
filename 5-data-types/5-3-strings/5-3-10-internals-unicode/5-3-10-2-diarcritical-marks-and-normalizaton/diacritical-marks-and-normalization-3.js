@@ -1,0 +1,2 @@
+alert( "S\u0307\u0323".normalize() == "S\u0323\u0307".normalize() ); // true 
+
