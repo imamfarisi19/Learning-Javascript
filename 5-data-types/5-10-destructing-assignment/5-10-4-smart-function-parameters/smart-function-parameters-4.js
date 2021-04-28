@@ -1,0 +1,5 @@
+function({ 
+  incomingProperty: varName = defaultValue 
+  ... 
+}) 
+
