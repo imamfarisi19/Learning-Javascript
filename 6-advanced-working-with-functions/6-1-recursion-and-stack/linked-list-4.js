@@ -1,0 +1,2 @@
+list.next.next = secondList;
+
