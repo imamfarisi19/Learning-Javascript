@@ -1,0 +1,2 @@
+let promise = fetch(url); 
+
