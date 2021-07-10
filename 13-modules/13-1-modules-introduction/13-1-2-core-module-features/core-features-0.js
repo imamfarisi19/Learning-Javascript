@@ -1,0 +1,2 @@
+alert("Module is evaluated!"); 
+
