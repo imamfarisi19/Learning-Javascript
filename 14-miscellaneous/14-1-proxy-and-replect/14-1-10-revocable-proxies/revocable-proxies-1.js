@@ -5,7 +5,7 @@ let object = {
 let {proxy, revoke} = Proxy.revocable(object, {}); 
 
 // pass the proxy somewhere instead of object...
-// alert(proxy.data); // Valuable data 
+alert(proxy.data); // Valuable data 
 
 // later in our code 
 revoke(); 
