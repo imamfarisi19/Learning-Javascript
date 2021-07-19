@@ -1,0 +1,2 @@
+log = _.curry(log); 
+
