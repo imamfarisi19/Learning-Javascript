@@ -1,0 +1,11 @@
+<body>
+	Hello
+	<!-- Comment -->
+	<script>
+		let text = document.body.firstChild,
+		alert( text.data ) // Hello 
+
+		let comment = text.nextSibling;
+		alert(comment.data); // Comment 
+	</script>
+</body>
